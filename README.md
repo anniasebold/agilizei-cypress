@@ -35,4 +35,4 @@ Para executar os testes no modo headless
 
 Para executar os testes com o Cypress Dashboard
 
-    cypress:run:dash
+    npm run cypress:run:dash
