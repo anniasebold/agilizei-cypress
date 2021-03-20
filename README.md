@@ -16,11 +16,21 @@ Depois instale o Cypress
 Após isso inicialize o Cypress
     
     npx cypress open
+Ou
+
+    npm run cypress:run
 
 Para inicializar de forma responsiva passe como parâmetro o viewportWidth e o viewportHeight
 
     npx cypress open --config viewportWidth=376,viewportHeight=823
+Ou
+
+    npm run cypress:run:mobile
 
 Para executar os testes no modo headless
 
     npx cypress run
+
+Para executar os testes com o Cypress Dashboard
+
+    cypress:run:dash
