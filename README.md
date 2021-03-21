@@ -10,7 +10,7 @@ Nessa semaan através desse projeto foi possível entender sobre:
 - A estrutura padrão de um projeto Cypress
 - Mapear elementos no Cypress
 - Adicionar validações / asserções nos códigos
-- Interagir com elementos atrave´s do pai desse elemento
+- Interagir com elementos através do pai desse elemento
 - Interagir com elementos através dos irmãos desse elemento
 - Hooks do Cypress
 - Formas de rodar o Cypress adicionando configurações na hora de rodar
