@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -27,19 +27,21 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     
-    # Action criada para o Cypress
+    
+    # action criada para o Cypress
     - name: Cypress run
       uses: cypress-io/github-action@v2.8.2
       with:
         record: true
-        group: 'Agilizei Cypress'
+        group: 'Semana Agilizei'
       env:
+        # pass the Dashboard record key as an environment variable
         CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-      
-    - name: Upload Videos
-        uses: actions/upload-artifact@v2.2.0
-        if: always()
-        with: 
-          name: videos
-          path: cypress/videos
-
+        
+    # upload dos vídeos gerados    
+    - name: Upload videos
+      uses: actions/upload-artifact@v2.2.0
+      if: always()
+      with:
+        name: videos
+        path: cypress/videos
