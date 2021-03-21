@@ -3,9 +3,9 @@
 
   Nele foi realizada a automação end to end do site: [Dev Finance](https://devfinance-agilizei.netlify.app/#).
 
-### Tecnologias e assuntos estudados
+## Tecnologias e assuntos estudados
 
-Nessa semaan através desse projeto foi possível entender sobre:
+Nessa semana através desse projeto foi possível entender sobre:
 
 - A estrutura padrão de um projeto Cypress
 - Mapear elementos no Cypress
@@ -20,7 +20,7 @@ Nessa semaan através desse projeto foi possível entender sobre:
 - Github Actions para CI da suite de testes com o Github
 
 
-### Configurações iniciais
+## Configurações iniciais
 
 Primeiramente clone o projeto
       
