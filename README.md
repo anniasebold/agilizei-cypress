@@ -3,7 +3,7 @@
 
   Nele foi realizada a automação end to end do site: [Dev Finance](https://devfinance-agilizei.netlify.app/#).
 
-## Tecnologias e assuntos estudados
+## Assuntos aplicados
 
 Nessa semana através desse projeto foi possível entender sobre:
 
