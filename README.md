@@ -1,9 +1,9 @@
-## Sobre
+## 📋 Sobre
   Esse projeto foi desenvolvido na Semana Agilizei de Cypress.
 
   Nele foi realizada a automação end to end do site: [Dev Finance](https://devfinance-agilizei.netlify.app/#).
 
-## Assuntos aplicados
+## 📚 Assuntos aplicados
 
 Nessa semana através desse projeto foi possível entender sobre:
 
@@ -20,7 +20,7 @@ Nessa semana através desse projeto foi possível entender sobre:
 - Github Actions para CI da suite de testes com o Github
 
 
-## Configurações iniciais
+## 💾 Como utilizar 
 
 Primeiramente clone o projeto
       
