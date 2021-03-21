@@ -28,7 +28,7 @@ jobs:
     - run: npm install
     
     
-    # action criada para o Cypress
+    # action criada especialmente para o Cypress    
     - name: Cypress run
       uses: cypress-io/github-action@v2.8.2
       with:
