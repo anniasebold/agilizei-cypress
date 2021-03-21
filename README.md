@@ -3,6 +3,23 @@
 
   Nele foi realizada a automação end to end do site: [Dev Finance](https://devfinance-agilizei.netlify.app/#).
 
+### Tecnologias e assuntos estudados
+
+Nessa semaan através desse projeto foi possível entender sobre:
+
+- A estrutura padrão de um projeto Cypress
+- Mapear elementos no Cypress
+- Adicionar validações / asserções nos códigos
+- Interagir com elementos atrave´s do pai desse elemento
+- Interagir com elementos através dos irmãos desse elemento
+- Hooks do Cypress
+- Formas de rodar o Cypress adicionando configurações na hora de rodar
+- Adicionar scripts com atalhos para execuções rápidas já configuradas
+- Interagir com LocalStorage para diminuir o tempo de execução da suite de testes
+- Cypress Dashboard
+- Github Actions para CI da suite de testes com o Github
+
+
 ### Configurações iniciais
 
 Primeiramente clone o projeto
